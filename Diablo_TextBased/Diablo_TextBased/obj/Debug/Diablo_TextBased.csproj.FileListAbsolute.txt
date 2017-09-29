@@ -1,0 +1,6 @@
+C:\Users\ahmad.alasfar\Documents\Visual Studio 2017\Projects\Diablo_TextBased\Diablo_TextBased\bin\Debug\Diablo_TextBased.exe.config
+C:\Users\ahmad.alasfar\Documents\Visual Studio 2017\Projects\Diablo_TextBased\Diablo_TextBased\bin\Debug\Diablo_TextBased.exe
+C:\Users\ahmad.alasfar\Documents\Visual Studio 2017\Projects\Diablo_TextBased\Diablo_TextBased\bin\Debug\Diablo_TextBased.pdb
+C:\Users\ahmad.alasfar\Documents\Visual Studio 2017\Projects\Diablo_TextBased\Diablo_TextBased\obj\Debug\Diablo_TextBased.csprojResolveAssemblyReference.cache
+C:\Users\ahmad.alasfar\Documents\Visual Studio 2017\Projects\Diablo_TextBased\Diablo_TextBased\obj\Debug\Diablo_TextBased.exe
+C:\Users\ahmad.alasfar\Documents\Visual Studio 2017\Projects\Diablo_TextBased\Diablo_TextBased\obj\Debug\Diablo_TextBased.pdb
