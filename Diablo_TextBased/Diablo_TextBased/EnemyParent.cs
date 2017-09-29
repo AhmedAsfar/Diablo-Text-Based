@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace Diablo_TextBased
 {
     public class EnemyParent
     {
+        Player player;
         public string myName = "";
         public int myHealth;
         public int myDamage;

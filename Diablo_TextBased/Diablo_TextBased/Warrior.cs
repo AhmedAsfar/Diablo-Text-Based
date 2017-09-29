@@ -24,34 +24,16 @@ namespace Diablo_TextBased
             }
         }
 
-        /*public void Attack()
+        public void Attack()
         {
             Random myRandomizer = new Random();
 
-            while (!Player.IsDead())
+            /*while (Player.)
             {
-                bool tempFight = true;
 
-                do
-                {
-                    myDamage = myRandomizer.Next(5, 15);
-                    if (myDamage - Player. >= 0)
-                    {
-                        myHealth -= myDamage;
-                        Console.WriteLine("You did " + myDamage + " damage.");
-                    }
-                    else if (myHealth - myDamage < 0)
-                    {
-                        myDamage = myHealth;
-                        myHealth -= myDamage;
-                        Console.WriteLine("You did " + myDamage + " damage.");
-                        tempFight = false;
-                    }
-                    Console.Clear();
+            }*/
 
-                } while (tempFight);
-            }
-        }*/
+        }
 
         public bool IsDead()
         {

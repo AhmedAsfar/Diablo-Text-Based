@@ -43,7 +43,12 @@ namespace Diablo_TextBased
 
                             Console.WriteLine("1. Attack");
                             Console.WriteLine("2. Defend");
-                            Console.WriteLine("3. Escape");
+                            Console.WriteLine("3. Escape \n");
+
+                            Warrior.Warriors[i - 1].myDamage = myRandomizer.Next(2, 8); ;
+                            myHealth -= Warrior.Warriors[i - 1].myDamage; // ´This Damage is being dealth i-1 for-loop aka damage = 2 this round means it hits the 2 next round
+                            Console.WriteLine("The enemy does " + Warrior.Warriors[i - 1].GetDamage + " damage to you.");
+                            Console.WriteLine("You did " + myDamage + " damage.");
 
                             string tempAttackStyle = Console.ReadLine();
                             //int tempInput = int.TryParse(tempAttackStyle, out );
@@ -73,12 +78,6 @@ namespace Diablo_TextBased
 
                             }
                             Console.Clear();
-
-                            /*Warrior.Warriors[i-1].myDamage = i; 
-                            myHealth -= Warrior.Warriors[i - 1].myDamage;
-                            Console.WriteLine("There are " + Warrior.Warriors.Count + " enemies left.");
-                            Console.WriteLine("The enemy does " + Warrior.Warriors[i - 1].GetDamage + " damage to you.");
-                            Console.WriteLine("You did " + myDamage + " damage.\n");*/
 
                         } while (tempFight);
                     }
